@@ -69,7 +69,9 @@ function circleArea() {
     <strong>Math.pow(r,2) - to get the second power of the radius
     <br />Math.PI - because you need the PI number to count the area of the circle,
     <br />Math.roun() - just to round the result. </strong><br /><br />
-    It also check if the input provided by user is a valid (numberic) input.
+    It also check if the input provided by user is a valid (numberic) input.<br />
+    - If user provided number - the function will parse the number from the input and provide the result (Even if the input is mixted with NaN f.e. 2cm).<br />
+    - If user provided invalid input NaN, the function will prompt the alert message. 
     `;
   }
 }
