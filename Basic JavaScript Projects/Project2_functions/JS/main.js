@@ -13,3 +13,9 @@ function concatenatedString() {
   sentence += " Save the file.";
   document.getElementById("conc").innerHTML = sentence;
 }
+
+function emptyBin() {
+  //challenge 3 My own function
+  document.getElementById("recycleBin").src =
+    "./images/recycle_bin_empty_15383.png";
+}
