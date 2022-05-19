@@ -8,7 +8,7 @@ function myDictionary() {
     Dog: "Milo",
     Cat: "Bart",
   };
-  // the function is taking the value provided in the select options and displays selected value Where the Key in the dictionary == value provided from the select option
+  // the function is taking the value provided in the select options and displays selected value - Where the Key in the dictionary == value provided from the select option
   var e = document.getElementById("family").value;
   document.getElementById(
     "Dictionary"
