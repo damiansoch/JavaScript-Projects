@@ -91,7 +91,7 @@ function showDetails() {
     GPU - ${Mili.Computer_Graphics},<br />
     Memmory - ${Mili.Computer_Memmory},<br />
     <br />
-    Please make sure that computer is fummy tested before shipment.
+    Please make sure that computer is fully tested before shipment.
     `;
 }
 // Nested functions
