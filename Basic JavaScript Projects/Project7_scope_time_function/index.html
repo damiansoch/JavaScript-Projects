@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>global vs local</h1>
+    <!-- --- -->
+    <button onclick="globalLocal()">Click for result</button>
+    <p id="result1"></p>
+    <p id="result2"></p>
+    <!-- --- -->
+    <button onclick="globalLocalMistake()">
+      Open the devTols/console and Click for result
+    </button>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <h1>If</h1>
+    <button onclick="getDate()">CLICK!</button>
+    <p id="displayResult"></p>
+    <button onclick="isWeekend()">Check if it's weekend!</button>
+    <p id="displayWeekend"></p>
+    <h1>If Else</h1>
+    <p>Please select the product to see the price.</p>
+
+    <input type="radio" value="iPad" id="iPad" name="productChasosen" />
+    <label for="iPad">iPad</label>
+    <input type="radio" value="iPhone" id="iPhone" name="productChasosen" />
+    <label for="iPhone">iPhone</label>
+    <input type="radio" value="MacBook" id="MacBook" name="productChasosen" />
+    <label for="MacBook">MacBook</label>
+    <button onclick="displayPrice()">Submit</button>
+    <p id="productPrice"></p>
+    <h1>Time of the day (Else if)</h1>
+    <button onclick="Time_function()">Click here to get the time</button>
+    <p id="Time_of_day"></p>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
