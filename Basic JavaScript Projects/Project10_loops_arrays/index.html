@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>While Loops</h1>
+    <p id="Counting_To_Ten">Counting to 10</p>
+    <button onclick="count_To_Ten()">Execute the Loop</button>
+    <h5>
+      Player needs to choose a whole number (0-99). Computer will randomly get
+      the second number. In order to win, these numbers need to be equal. There
+      are 100 chances (rounds). Max number of points is 100, every round player
+      is losing 1 point. So for example: if the numbers are matched in round 50,
+      the player will get 50 points. If they are matched on round 99, the player
+      will get 1 point. If the numbers don't match at all during 100 rounds - 0
+      points… Good Luck… :D
+    </h5>
+    <h5>
+      The program first will try to parse the integer from the input and than
+      the program checks if:
+      <h5>
+        <ol>
+          <li>input isn't empty</li>
+          <li>input is in 0-99 range</li>
+          <li>
+            in case of mixed numbers (5.8 or 5 1/2), the whole number will be
+            used and the program will get rid of the fraction piece.
+          </li>
+        </ol>
+      </h5>
+    </h5>
+
+    <p id="Loop"></p>
+    <p id="Win"></p>
+    <button onclick="Call_Loop()">Execute the Loop!</button>
+    <h1>text.lenght property</h1>
+    <p id="textLenght"></p>
+    <button onclick="checkLenght()">Check it!</button>
+
+    <h1>For Loops</h1>
+    <p id="list_of_instruments"></p>
+    <button onclick="for_Loop()">Click here!</button>
+
+    <h1>Arrays</h1>
+    <img src="./" id="array" alt="" />
+    <p id="text_desc"></p>
+    <select name="" id="option" onchange="array_Function()">
+      <option value="0">-------- Sleeping --------</option>
+      <option value="1">-------- Eating --------</option>
+      <option value="2">-------- Funny --------</option>
+      <option value="3">-------- Angry --------</option>
+    </select>
+
+    <h1>const</h1>
+    <p id="constant"></p>
+
+    <select name="" id="compDetails">
+      <option value="monitor">Monitor</option>
+      <option value="GPU">Graphic carg</option>
+      <option value="memory">Memory</option>
+    </select>
+    <button onclick="constant_function()">Click here!</button>
+    <h1>let</h1>
+    <p id="letKeyword"></p>
+
+    <h1>return statement</h1>
+    <h3 id="return"></h3>
+    <button onclick="returnStatement()">Click me!</button>
+
+    <h1>Data structure - Object</h1>
+    <select name="" id="carSelect" onchange="displayDetails()">
+      <option value="damian">Damian's Car</option>
+      <option value="kinga">Kinga's Car</option>
+      <option value="milena">Milena's Car</option>
+    </select>
+    <p id="details"></p>
+
+    <h1>break, continue statements</h1>
+    <p id="breakStatement"></p>
+    <p id="continueStatement"></p>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
