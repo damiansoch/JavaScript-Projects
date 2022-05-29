@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/css_2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="form">
+      <h1>Contact form</h1>
+      <form name="myForm" onsubmit="formSubmit()">
+        <input
+          type="text"
+          class="inputSubmit"
+          name="name"
+          placeholder="Name:"
+        />
+        <input
+          type="text"
+          class="inputSubmit"
+          name="surname"
+          placeholder="Surame:"
+        />
+        <input
+          type="email"
+          class="inputSubmit"
+          name="email"
+          placeholder="Email:"
+        />
+        <textarea
+          name="message"
+          id=""
+          placeholder="Message"
+          class="inputSubmit"
+        ></textarea>
+        <button type="submit">Submit Form</button>
+      </form>
+    </div>
+    <script src="./JS/JavaScript_2.js"></script>
+  </body>
+</html>
